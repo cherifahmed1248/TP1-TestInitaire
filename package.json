@@ -1,0 +1,17 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file.js",
+  "scripts": {
+    "start": "nodemon file",
+    "test": "jest"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3"
+  }
+}
