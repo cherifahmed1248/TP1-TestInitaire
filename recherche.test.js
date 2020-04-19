@@ -7,7 +7,7 @@ describe("test of recherche ", () => {
 
         expect(() => recherche(queue, element)).toThrow();
     })
-    test("recherche d'un element existant dans un liste paire", () => {
+    test("recherche d'un element existant dans un liste impaire", () => {
         const queue = [1, 3, 5, 7, 9, 11, 13];
         element = 1
         const expected = true
